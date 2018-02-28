@@ -1,7 +1,13 @@
 #front-page {
-	height: 100%;
 	display: table;
 	padding-top: 6%;
+}
+
+#front-page h2 small,
+#front-page h1 {
+	color: white;
+	background-color: rgba(30, 30, 30, 0.7);
+	border-radius:0.2em;
 }
 
 .images {
@@ -11,20 +17,69 @@
 }
 
 .promo{
-	text-align: center;
 	margin-bottom: 7%;
 }
+
+.promo h3 {
+	text-align: center;
+}
+
 .navbar-default{
 	margin-bottom: 0px;
 }
+
 .cover {
-	background-image: url('img/bg.jpg');
-	height: 100%;
-	margin-bottom: 10%;
+	background-image: url('img/nybrufossen-fly.jpg');
+	background-size: cover;
+	height: 85%;
 }
 
 .btn-success{
 	border-color: 2px solid #41dd85;
 	background-color: rgba(0,0,0,0);
 	color: #41dd85;
+}
+
+#page-watermodel, #page-construction {
+	min-height: 60%;
+}
+
+.img-responsive {
+  max-width: 90%; /* or to whatever you want here */
+  max-height: auto; /* or to whatever you want here */
+  margin: 2em auto;
+}
+
+#page-watermodel {
+	/*background-color: #063647;*/
+	/*color: white;*/
+}
+
+#page-construction {
+	background-color: #0E282E;
+	color: white;
+}
+
+.page {
+	padding-top: 5%;
+}
+
+#page-description {
+	background-color: #0E282E;
+	color: white;
+}
+
+p {
+	font-size: 18px;
+}
+
+#page-wood-early {
+	background-image: url('img/wood-model-early.jpg');
+	min-height: 60%;
+}
+
+#page-wood-early .container {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 0.2em;
 }
