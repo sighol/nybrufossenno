@@ -32,6 +32,7 @@
 	background-image: url('img/nybrufossen-fly.jpg');
 	background-size: cover;
 	height: 85%;
+	background-position: center;
 }
 
 .btn-success{
