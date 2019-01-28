@@ -3,11 +3,12 @@
 	padding-top: 6%;
 }
 
-#front-page h2 small,
-#front-page h1 {
+#front-page-content {
 	color: white;
-	background-color: rgba(30, 30, 30, 0.7);
+	background-color: rgba(30, 30, 30, 0.8);
 	border-radius:0.2em;
+	padding: 1em;
+
 }
 
 .images {
@@ -31,7 +32,7 @@
 .cover {
 	background-image: url('img/nybrufossen-fly.jpg');
 	background-size: cover;
-	height: 85%;
+	height: 95%;
 	background-position: center;
 }
 
@@ -49,6 +50,10 @@
   max-width: 90%; /* or to whatever you want here */
   max-height: auto; /* or to whatever you want here */
   margin: 2em auto;
+}
+
+#navbar-brand-header {
+	padding: 2em;
 }
 
 #page-watermodel {
@@ -80,7 +85,12 @@ p {
 }
 
 #page-wood-early .container {
-	color: black;
-	background-color: rgba(255, 255, 255, 0.7);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 0.2em;
+	padding: 2em;
+}
+
+.container.page {
+	padding: 2em;
 }
